@@ -1,0 +1,10 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+uploads/
+data/
+models/model.pt
+models/final_model.pt
+*.zip
+*.tar.gz

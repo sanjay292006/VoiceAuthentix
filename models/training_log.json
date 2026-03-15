@@ -1,0 +1,56 @@
+{
+  "model_version": "cnn-bilstm-v2.0",
+  "best_val_acc": 0.9953,
+  "best_eer": 0.0047,
+  "test_metrics": {
+    "loss": 0.1246,
+    "accuracy": 0.9965,
+    "auc": 0.9999,
+    "eer": 0.0037,
+    "tp": 6113,
+    "tn": 6014,
+    "fp": 24,
+    "fn": 19
+  },
+  "total_epochs": 3,
+  "epoch_logs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.2527,
+      "train_acc": 0.9276,
+      "val_loss": 0.1667,
+      "val_acc": 0.9738,
+      "val_auc": 0.9987,
+      "val_eer": 0.0171,
+      "lr": 0.00075025,
+      "time_sec": 1766.6
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.1582,
+      "train_acc": 0.9818,
+      "val_loss": 0.135,
+      "val_acc": 0.9914,
+      "val_auc": 0.9996,
+      "val_eer": 0.0081,
+      "lr": 0.00025075,
+      "time_sec": 1790.3
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.139,
+      "train_acc": 0.9908,
+      "val_loss": 0.1267,
+      "val_acc": 0.9953,
+      "val_auc": 0.9998,
+      "val_eer": 0.0047,
+      "lr": 1e-06,
+      "time_sec": 1665.6
+    }
+  ],
+  "data_dirs": [
+    "D:\\VoiceAuthentix\\BACKEND\\data\\Voice ds\\for-2sec\\for-2seconds\\training",
+    "D:\\VoiceAuthentix\\BACKEND\\data\\Voice ds\\for-norm\\for-norm\\training",
+    "D:\\VoiceAuthentix\\BACKEND\\data\\Voice ds\\for-original\\for-original\\training"
+  ]
+}
